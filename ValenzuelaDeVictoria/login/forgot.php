@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="stylesforgot2.css">
+    <link rel="stylesheet" href="stylesforgot.css">
 </head>
 <body>
     <form action="" method="post">
