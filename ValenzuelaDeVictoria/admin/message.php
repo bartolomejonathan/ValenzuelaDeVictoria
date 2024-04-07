@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Victoria De Valenzuela</title>
+  <title>Message</title>
+    <!-- Import this CDN to use icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <!-- Link Styles -->
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="content.css">
@@ -77,6 +79,36 @@
   </div>
   <section class="home-section">
         <div>Message</div>
+    
+<!-- Main container  -->
+    <div class="container">
+<!--  Message header section starts    -->
+        <div class="msg-header">
+        
+         </div> 
+<!-- Message header section ends -->
+
+<!-- Chat inbox section starts -->
+         
+    <div class="chat-page">
+            <div class="msg-inbox">
+                <div class="chats">
+                     <div class="msg-page">
+<!-- Contains the incoming and outgoing messages -->
+                      </div> 
+                </div>
+                
+<!--  Message bottom section starts -->
+               <div class="msg-bottom">
+               
+              
+                </div> 
+                
+<!-- Message bottom section ends. -->
+            </div>
+        </div>
+    </div>
+
   </section>
   <!-- Scripts -->
   <script src="script.js"></script>
