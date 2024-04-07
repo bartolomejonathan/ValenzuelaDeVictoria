@@ -76,7 +76,7 @@
     </ul>
   </div>
   <section class="home-section">
-        <div>DASHBOARD</div>
+        <div>listing</div>
   </section>
   <!-- Scripts -->
   <script src="script.js"></script>
