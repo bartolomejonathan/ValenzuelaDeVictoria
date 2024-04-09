@@ -1,0 +1,195 @@
+ /*LOGIN*/
+ 
+ 
+ .login-page {
+    background-image: url(i.png);
+    background-size: cover;
+  background-position: center;
+  height: 100%;
+  position: relative;
+    backdrop-filter: blur(2px); /* Adjust the blur amount as needed */
+  }
+
+  .container1{
+    padding-left: 55%;
+    color: #E9E3E3;
+    font-family: Impact;
+
+  }
+
+  .container2{
+    padding-left: 68%;
+    font-family: monospace;
+    margin-bottom: 2%;
+    color: #FFFFFF;
+  }
+
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 80%;
+    padding: 15px 25px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+/*   
+   Set a style for all buttons */
+  .buttons { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+  }
+
+  /*Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
+ 
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 10%;
+    border-radius: 50%;
+    margin-left: 45%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    padding-left: 355px;
+    padding-top: 16px;
+  }
+  
+  span.su {
+    padding-left: 130px;
+   
+  }
+
+ .su{
+  color:#023047;
+ }
+
+  /*SIGNUP*/
+ /* Style labels */
+label {
+  display: block; 
+  margin-bottom: 5px;
+  font-weight: bold; 
+}
+
+/* Style text input fields */
+input[type="text"] {
+  width: 15%; 
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+}
+
+/* Style file input fields */
+input[type="file"] {
+  margin-bottom: 10px; /* Add space below file input fields */
+}
+
+/* Style inline labels */
+.inline-label {
+  display: inline-block; /* Make labels appear inline */
+  width: 100px; /* Adjust width as needed */
+}
+
+/* Style inline input fields */
+.inline-input {
+  display: inline-block; /* Make inputs appear inline */
+  width: calc(100% - 110px); /* Adjust width to fit remaining space */
+  margin-left: 10px; /* Add space between labels and inputs */
+}
+
+.signup {
+  padding-left: 20%;
+}
+
+.container22{
+  padding-left: 46%;
+  font-family: monospace;
+  margin-bottom: 2%;
+  color: #FFFFFF;
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #084cdf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #0d45a5;
+}
+
+.filec{
+  padding-left: 20%;
+}
+
+.drop-container {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px dashed #555;
+  color: #444;
+  cursor: pointer;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+.drop-container:hover {
+  background: #eee;
+  border-color: #111;
+}
+
+.drop-container:hover .drop-title {
+  color: #222;
+}
+
+.drop-title {
+  color: #444;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  transition: color .2s ease-in-out;
+}
+
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+
+
