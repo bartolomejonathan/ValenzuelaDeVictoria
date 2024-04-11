@@ -69,12 +69,20 @@
         <span class="tooltip">Person</span>
       </li>
       <li class="profile">
+<<<<<<< HEAD
         <div class="profile_details">
           <div class="profile_content">
             <div class="designation">Log Out</div>
           </div>
         </div>
         <i class="bx bx-log-out" id="log_out"></i>
+=======
+      <a href="login/signin.php" target="_self">
+          <i class="bx bx-log-out"></i>
+          <span class="link_name">Log Out</span>
+        </a>
+        <span class="tooltip">Log Out</span>
+>>>>>>> c07a4d3b76fb014948dae4a776304286555241f1
       </li>
     </ul>
   </div>

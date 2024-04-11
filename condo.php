@@ -74,19 +74,55 @@
     </ul>
   </div>
   <section class="home-section">
-  <div class="card">
-    <img src="condo1.jpg" alt="Condo Image">
-    <h3>Condo Name</h3>
-    <p>Price: $100,000</p>
-    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<h2>Condo List</h2>
+<div class = "container-lis">
+<div class="card">
+  <img src="image/i.png" alt="Avatar" style="width:100%">
+  <div class="container-">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
 </div>
 
+<div class = "container-lis">
 <div class="card">
-    <img src="condo2.jpg" alt="Condo Image">
-    <h3>Condo Name 2</h3>
-    <p>Price: $150,000</p>
-    <p>Description: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <img src="image/i.png" alt="Avatar" style="width:100%">
+  <div class="container-">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
 </div>
+
+<div class = "container-lis">
+<div class="card">
+  <img src="image/i.png" alt="Avatar" style="width:100%">
+  <div class="container-">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+
+<div class = "container-lis">
+<div class="card">
+  <img src="image/i.png" alt="Avatar" style="width:100%">
+  <div class="container-">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+
+<div class = "container-lis">
+<div class="card">
+  <img src="image/i.png" alt="Avatar" style="width:100%">
+  <div class="container-">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+
+
+</div>
+
   </section>
   <!-- Scripts -->
   <script src="script.js"></script>

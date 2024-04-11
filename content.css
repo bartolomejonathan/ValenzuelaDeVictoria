@@ -216,31 +216,25 @@ h1 {
 
   /* Listing */
 
- .container {
+  .container-list {
     display: flex;
     justify-content: center;
+  }
+  
+  .card {
     align-items: center;
-    height: 100vh;
-}
-.card {
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.card img {
-    width: 100%;
-    border-radius: 5px;
-}
-.card h3 {
-    margin-top: 10px;
-    font-size: 20px;
-}
-.card p {
-    font-size: 16px;
-}
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container-listing {
+    padding: 2px 16px;
+  }
 
 /* dashboard */
 
