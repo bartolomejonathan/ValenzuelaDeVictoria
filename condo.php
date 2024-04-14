@@ -8,6 +8,23 @@
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+<div class="column_list">
+        <div class="card_list">
+            <img src="https://via.placeholder.com/150" alt="Card Image">
+            <h3>Card 1</h3>
+            <p>Description of Card 1</p>
+        </div>
+        <div class="card_list">
+            <img src="https://via.placeholder.com/150" alt="Card Image">
+            <h3>Card 2</h3>
+            <p>Description of Card 2</p>
+        </div>
+        <div class="card_list">
+            <img src="https://via.placeholder.com/150" alt="Card Image">
+            <h3>Card 3</h3>
+            <p>Description of Card 3</p>
+        </div>
+    </div>
   <div class="sidebar">
     <div class="logo_details">
       <div class="logo">
@@ -73,57 +90,7 @@
       </li>
     </ul>
   </div>
-  <section class="home-section">
-<h2>Condo List</h2>
-<div class = "container-lis">
-<div class="card">
-  <img src="image/i.png" alt="Avatar" style="width:100%">
-  <div class="container-">
-    <h4><b>John Doe</b></h4> 
-    <p>Architect & Engineer</p> 
-  </div>
-</div>
-
-<div class = "container-lis">
-<div class="card">
-  <img src="image/i.png" alt="Avatar" style="width:100%">
-  <div class="container-">
-    <h4><b>John Doe</b></h4> 
-    <p>Architect & Engineer</p> 
-  </div>
-</div>
-
-<div class = "container-lis">
-<div class="card">
-  <img src="image/i.png" alt="Avatar" style="width:100%">
-  <div class="container-">
-    <h4><b>John Doe</b></h4> 
-    <p>Architect & Engineer</p> 
-  </div>
-</div>
-
-<div class = "container-lis">
-<div class="card">
-  <img src="image/i.png" alt="Avatar" style="width:100%">
-  <div class="container-">
-    <h4><b>John Doe</b></h4> 
-    <p>Architect & Engineer</p> 
-  </div>
-</div>
-
-<div class = "container-lis">
-<div class="card">
-  <img src="image/i.png" alt="Avatar" style="width:100%">
-  <div class="container-">
-    <h4><b>John Doe</b></h4> 
-    <p>Architect & Engineer</p> 
-  </div>
-</div>
-
-
-</div>
-
-  </section>
+ 
   <!-- Scripts -->
   <script src="script.js"></script>
 </body>
