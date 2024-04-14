@@ -69,7 +69,6 @@
         <span class="tooltip">Person</span>
       </li>
       <li class="profile">
-<<<<<<< HEAD
         <div class="profile_details">
           <div class="profile_content">
             <div class="designation">Log Out</div>
