@@ -52,7 +52,7 @@
       </li>
 
       <li>
-        <a href="users.php" target="_self">
+        <a href="twouser.php" target="_self">
           <i class="bx bx-user circle"></i>
           <span class="link_name">User</span>
         </a>

@@ -51,7 +51,7 @@
         <span class="tooltip">Message</span>
       </li>
       <li>
-        <a href="" target="_self">
+        <a href="twouser.php" target="_self">
           <i class="bx bx-user circle"></i>
           <span class="link_name">Profile</span>
         </a>
@@ -92,24 +92,7 @@
         <!-- Add more users as needed -->
     </tbody>
 </table>
-<table class="user-table">
-  <h2>Admin Accounts</h2>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Action</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Victoria D. Valenzuela</td>
-            <td>victoriadevalenzuela@gmail.com</td>
-            <td><button class="delete-btn">Delete</button> <button class="edit-btn">Edit </button></td>
-        </tr>
-        <!-- Add more users as needed -->
-    </tbody>
-</table>
+
   </section>
   <!-- Scripts -->
   <script src="../script.js"></script>

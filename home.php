@@ -47,12 +47,13 @@
         <span class="tooltip">Calendar</span>
       </li>
      
+     
       <li>
-        <a href="notification.php" target="_self">
-          <i class="bx bx-bell"></i>
-          <span class="link_name">Notification</span>
+        <a href="messagelist.php" target="_self">
+          <i class="bx bx-message-alt-dots"></i>
+          <span class="link_name">Message</span>
         </a>
-        <span class="tooltip">Notification</span>
+        <span class="tooltip">Message</span>
       </li>
       <li>
         <a  href="aboutus.php" target="_self">

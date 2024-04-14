@@ -51,7 +51,7 @@
         <span class="tooltip">Message</span>
       </li>
       <li>
-        <a href="users.php" target="_self">
+        <a href="twouser.php" target="_self">
           <i class="bx bx-user circle"></i>
           <span class="link_name">User</span>
         </a>
@@ -77,15 +77,15 @@
         </a>
         <a href="users.php" class="metric">
             <h2>No. of Users</h2>
-            <p>1000</p>
+            <p>2</p>
         </a>
         <a href="listing.php" class="metric">
             <h2>No. of Unit Categories</h2>
-            <p>10</p>
+            <p>4</p>
         </a>
         <a href="users.php" class="metric">
             <h2>No. of Admins</h2>
-            <p>5</p>
+            <p>1</p>
         </a>
     </div>
 </div>

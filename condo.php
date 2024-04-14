@@ -4,27 +4,10 @@
   <title>Victoria De Valenzuela</title>
   <!-- Link Styles -->
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href ="content.css">
+  <link rel="stylesheet" href="content.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-<div class="column_list">
-        <div class="card_list">
-            <img src="https://via.placeholder.com/150" alt="Card Image">
-            <h3>Card 1</h3>
-            <p>Description of Card 1</p>
-        </div>
-        <div class="card_list">
-            <img src="https://via.placeholder.com/150" alt="Card Image">
-            <h3>Card 2</h3>
-            <p>Description of Card 2</p>
-        </div>
-        <div class="card_list">
-            <img src="https://via.placeholder.com/150" alt="Card Image">
-            <h3>Card 3</h3>
-            <p>Description of Card 3</p>
-        </div>
-    </div>
   <div class="sidebar">
     <div class="logo_details">
       <div class="logo">
@@ -46,7 +29,7 @@
         <span class="tooltip">Dashboard</span>
       </li>
        <li>
-        <a href="">
+        <a href="condo.php" target="_self">
           <i class="bx bx-home-alt"></i>
           <span class="link_name">Condo Units</span>
         </a>
@@ -60,26 +43,27 @@
         <span class="tooltip">Calendar</span>
       </li>
      
+    
       <li>
-        <a href="notification.php" target="_self">
-          <i class="bx bx-bell"></i>
-          <span class="link_name">Notification</span>
+        <a href="messagelist.php" target="_self">
+          <i class="bx bx-message-alt-dots"></i>
+          <span class="link_name">Message</span>
         </a>
-        <span class="tooltip">Notification</span>
+        <span class="tooltip">Message</span>
       </li>
       <li>
-        <a href="aboutus.php" target="_self">
+        <a  href="aboutus.php" target="_self">
           <i class="bx bx-info-circle"></i>
           <span class="link_name">About Us</span>
         </a>
         <span class="tooltip">About Us</span>
       </li>
       <li>
-        <a href="profile.php" target="_self">
+        <a href="" target="_self">
           <i class="bx bx-user circle"></i>
-          <span class="link_name">Profile</span>
+          <span class="link_name">Person</span>
         </a>
-        <span class="tooltip">Profile</span>
+        <span class="tooltip">Person</span>
       </li>
       <li class="profile">
       <a href="login/signin.php" target="_self">
@@ -90,7 +74,50 @@
       </li>
     </ul>
   </div>
- 
+  <section class="lists">
+    <h1>Condo List</h1>
+    <div class="all-list">
+      <div class="listing">
+        <img src="image/single.jpg" alt="Single Unit">
+        <div class="list-info">
+          <h4 class="list-title">Dormitory</h4>
+          <p class="list-price">1,500,000</p>
+          <a href="#" class="list-btn">View</a>
+        </div>
+      </div>
+
+      <div class="all-list">
+      <div class="listing">
+        <img src="image/combine.jpg" alt="Single Unit">
+        <div class="list-info">
+          <h4 class="list-title">Single Unit</h4>
+          <p class="list-price">4,000,000</p>
+          <a href="#" class="list-btn">View</a>
+        </div>
+      </div>
+
+      <div class="all-list">
+      <div class="listing">
+        <img src="image/triple.jpg" alt="Single Unit">
+        <div class="list-info">
+          <h4 class="list-title">Single Unit</h4>
+          <p class="list-price">6,000,000</p>
+          <a href="#" class="list-btn">View</a>
+        </div>
+      </div>
+
+      <div class="all-list">
+      <div class="listing">
+        <img src="image/single.jpg" alt="Single Unit">
+        <div class="list-info">
+          <h4 class="list-title">Single Unit</h4>
+          <p class="list-price">1,000,000</p>
+          <a href="#" class="list-btn">View</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
   <!-- Scripts -->
   <script src="script.js"></script>
 </body>
